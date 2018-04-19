@@ -20,10 +20,10 @@ As a brief introduction to the situation:
 # Goal:
 
 Our goal was to create an script that process the original data and generate a tidy dataset, where every row represents an unique combination of: 
-	1- The observed subject. 
-	2- The activity the subject was doing.
-	3- The measured variable for this user and activity.
-	4- The mean of all measures for this specific user, activity and variable.
+	- The observed subject. 
+	- The activity the subject was doing.
+	- The measured variable for this user and activity.
+	- The mean of all measures for this specific user, activity and variable.
 
 As an example, the row:
 
