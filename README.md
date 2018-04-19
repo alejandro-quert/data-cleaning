@@ -35,20 +35,20 @@ means: For subject number 1, when LAYING, all measures for variable tBodyAcc-mea
 
 For this case, we will focus in variables that measure mean and standard deviation. We did the following:
 
-1- Create a dataset that groups subject ids, activities and variable measures for test data.
-2- Create a dataset that groups subject ids, activities and variable measures for train data.
-3- Replace activities ids for activities labels. Is a more user friendly format.
-4- Joing test and train data into a single dataset.
-5- Generate a subset with mean and std columns only (keeping subject and activity columns).
-6- Generate a tidy dataset using the previous subsetted data.
-7- Generate a result dataset, with the average of each variable for each activity and each subject.
-8- Export the result dataset.
+- Create a dataset that groups subject ids, activities and variable measures for test data.
+- Create a dataset that groups subject ids, activities and variable measures for train data.
+- Replace activities ids for activities labels. Is a more user friendly format.
+- Joing test and train data into a single dataset.
+- Generate a subset with mean and std columns only (keeping subject and activity columns).
+- Generate a tidy dataset using the previous subsetted data.
+- Generate a result dataset, with the average of each variable for each activity and each subject.
+- Export the result dataset.
 
 # How to run the analysis:
 
-1- Download the file run_analysis.R to a folder with write permissions.
-2- Open R console in admin mode (at least for Windows).
-3- Change the R working directory to the location where run_analysis.R is.
-4- Run source("run_analysis.R")
-5- Run course_project()
-6- If everything went well, you should see a file named tidy_result.txt.
+- Download the file run_analysis.R to a folder with write permissions.
+- Open R console in admin mode (at least for Windows).
+- Change the R working directory to the location where run_analysis.R is.
+- Run source("run_analysis.R")
+- Run course_project()
+- If everything went well, you should see a file named tidy_result.txt.
