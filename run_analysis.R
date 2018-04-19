@@ -4,9 +4,9 @@ course_project <- function()
 	#Download and unzip data. 
 	#If you are running this script more than once, you can comment the following four lines after the first time.
 	print("Downloading data...")
-	#fileUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip";	
-	#download.file(fileUrl, destfile = "data.zip");	
-	#unzip("data.zip");
+	fileUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip";	
+	download.file(fileUrl, destfile = "data.zip");	
+	unzip("data.zip");
 	
 	#Reading test and train data as tables. 
 	print("Reading measures...")
